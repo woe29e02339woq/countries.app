@@ -18,6 +18,7 @@ const Country = () => {
             <img className="w-55 rounded-[10px] pb-2" src={countries.flags.svg} alt="" />
             <div className="px-6 text-2xl	">{countries.name.common}</div>
             <div className="px-6 pb-1 text-base">Capital: {countries.capital.map(item => <span key={item}>{item}</span>)}</div>
+            <div>d</div>
         </div>
     )
     
