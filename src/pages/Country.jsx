@@ -20,6 +20,7 @@ const Country = () => {
             <div className="px-6 pb-1 text-base">Capital: {countries.capital.map(item => <span key={item}>{item}</span>)}</div>
         </div>
     )
+    
 }
 
 export default Country;
